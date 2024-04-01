@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color:rgba(243, 168, 168, 0.664); 
+}
+
+
+.container {
+    margin: 2px;
+    display: flex;
+
+    gap: 5px;
+    height: fit-content;
+
+
+}
+
+.sidebar {
+
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 20px;
+    gap: 100px;
+    color: white;
+    margin: 2px;
+
+
+    height:100vh;
+    width: 20vw;
+    background-color: #4b4c4d;
+
+}
+.dashBoard-logo{
+
+    margin-top: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-size:180%;
+
+}
+.belowDashboard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    font-weight: bold;
+
+
+
+
+}
+.settings{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+
+
+
+
+}
+
+
+.navbar{
+    padding: 20px;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(230, 122, 122);
+}
+.search{
+    padding-right: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftSide-OfSearch{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 50%;
+    height: 100%;
+    font-size: large;
+font-family:  Roboto, sans-serif;
+font-weight: bold;
+
+}
+
+.rightSide-OfSearch{
+display: flex;
+align-items: center;
+gap: 30px;
+font-size: large;
+font-family:  Roboto, sans-serif;
+font-weight: bold;
+
+}
+.belowSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftSide-OfBelowSearch{
+    display: flex;
+    gap:10px;
+    font-size: large;
+    font-family:  Roboto, sans-serif;
+    font-weight: bold;
+
+}
+.rightSide-OfBelowSearch{
+    display: flex;
+align-items: center;
+
+gap: 30px;
+
+}
+button{
+    font-size: large;
+    background-color: #bf3ff1;
+    color: white;
+    width: 5em;
+    border-radius: 10%;
+}
+input{
+    font-size: larger;
+    width: 90%;
+    height: 20%;    
+
+   background-color: rgb(231, 203, 112);
+   border-radius: 5%;
+
+}
+
+img{
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    border: 2px solid black;
+}
+
+.cards{
+    padding-left: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+
+}
+.projects{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 185, 185);
+    border-left: 10px solid rgb(123, 142, 172);
+    padding: 15px;
+    gap: 27px;
+}
+.heading{
+    font-size: large;
+    font-family:  Roboto, sans-serif;
+    font-weight: bold;
+}
+.text{
+    font-size: medium;
+    font-family:  Roboto, sans-serif;
+}
+.leftSide-Cards{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
+    gap: 30px;
+    height: fit-content;
+}
+ .rightSide-Cards{
+    display: flex;
+    grid-template-rows: 2fr 1fr 2fr;
+     height: fit-content;
+
+    gap: 10px;
+} 
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: medium; 
+
+
+ }
+.between-txt{
+    width: 100%;
+    display: flex;
+
+    padding-left: 36px;
+    gap:800px;
+    font-size: large;
+    font-family:  Roboto, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+} 
+.upper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 172, 172);
+    border-left: 10px solid rgb(133, 176, 182);
+    padding: 15px;
+
+}
+.trends{
+    font-weight: bold;
+    font-size: large;
+    font-family:  Roboto, sans-serif;
+}
+.announcements{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+} 
+.lower{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    background-color: rgb(161, 197, 221);
+    border-left: 10px solid rgb(20, 106, 219);
+    padding: 30px;
+}
+.lower>div{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border-bottom: 1px solid rgb(165, 153, 153);
+}
